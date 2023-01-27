@@ -69,10 +69,12 @@ header p {
 
 header nav ul.lista-superior {
     margin-bottom: 15px;
+    display: none;
 }
 
 header nav ul li a {
     font-size: var(--parrafos);
+    display: none;
 }
 
 header div.burger-menu {
@@ -142,6 +144,18 @@ footer span {
     }
     h5.descripcion {
         display: block;
+    }
+
+    header nav ul.lista-superior {
+        display: block;
+    }
+    
+    header nav ul li a {
+        display: block;
+    }
+
+    header div.burger-menu {
+        display: none;
     }
 }
 
